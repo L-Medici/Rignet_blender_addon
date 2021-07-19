@@ -34,7 +34,7 @@ pip install trimesh[easy]
 conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
 ```
 
-Minimize the console window, check on Anaconda the version of pytorch and make sure it's 1.7.1 or above. When we explicit the version within the "pip install" command for some reason it generates errors lately. According to the version installed, simply modify the four following pip installs with your current version "torch-#.#.#+cu101.html":
+Minimize the console window, check on Anaconda the version of pytorch and make sure it's 1.7.1 or above after you clicked the button "update index". When we explicit the version within the "pip install" command for some reason it generates errors lately. According to the version installed, simply modify the four following pip installs with your current version "torch-#.#.#+cu101.html":
 
 ```
 pip install torch-scatter==2.0.7 -f https://pytorch-geometric.com/whl/torch-1.7.1+cu101.html
