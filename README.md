@@ -48,10 +48,10 @@ pip install torch-cluster==1.5.9 -f https://pytorch-geometric.com/whl/torch-1.7.
 pip install torch-geometric
 ```
 
-If you are working on Linux you can skip this last step. Download from https://www.lfd.uci.edu/~gohlke/pythonlibs/#rtree the file named "Rtree‑0.9.7‑cp37‑cp37‑win_amd64.whl" then run on the console:
+If you are working on Linux you can skip this last step. Download from https://www.lfd.uci.edu/~gohlke/pythonlibs/#rtree the file named "Rtree‑0.9.7‑cp37‑cp37m‑win_amd64.whl" then run on the console:
 
 ```
-pip install Rtree‑0.9.7‑cp37‑cp37‑win_amd64.whl
+pip install Rtree‑0.9.7‑cp37‑cp37m‑win_amd64.whl
 ```
 
 If any of the above ends up in an error it is possible to browse the created environment directly in anaconda navigator and install the above mentioned packages
