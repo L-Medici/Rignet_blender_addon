@@ -6,13 +6,13 @@ We strongly advise to use the latest version of blender available in order to us
 --------
 Install anaconda.
 
-open anaconda navigator interface/program
+Open anaconda navigator interface
 
-go into environments
+Go into environments
 
-create a new environment with python 3.7
+Create a new environment with python 3.7
 
-press the play button next to the created environment, open terminal
+Press the play button next to the created environment, open terminal
 
 ```
 pip install numpy==1.20.2
