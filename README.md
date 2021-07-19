@@ -58,7 +58,7 @@ If any of the above ends up in an error it is possible to browse the created env
 
 
 
-2)https://github.com/zhan-xu/RigNet network setup
+2)RigNet setup
 --------
 Download the code of https://github.com/zhan-xu/RigNet and unzip it
 
