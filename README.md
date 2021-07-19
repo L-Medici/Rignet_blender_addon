@@ -4,7 +4,7 @@ We strongly advise to use the latest version of blender available in order to us
 
 1)Setup of Anaconda that emulates our environment on Windows 64x
 --------
-Install anaconda.
+Install Anaconda
 
 Open anaconda navigator interface
 
