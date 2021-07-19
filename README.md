@@ -14,6 +14,7 @@ create a new environment with python 3.7
 
 press the play button next to the created environment, open terminal
 
+```
 pip install numpy==1.20.2
 
 pip install scipy==1.7.0
@@ -43,6 +44,7 @@ pip install torch-spline-conv==1.2.1 -f https://pytorch-geometric.com/whl/torch-
 pip install torch-cluster==1.5.9 -f https://pytorch-geometric.com/whl/torch-1.8.1+cu101.html
 
 pip install torch-geometric
+```
 
 Download from https://www.lfd.uci.edu/~gohlke/pythonlibs/#rtree the file named "Rtree‑0.9.7‑cp37‑cp37‑win_amd64.whl" then run on the console: pip install Rtree‑0.9.7‑cp37‑cp37‑win_amd64.whl
 
