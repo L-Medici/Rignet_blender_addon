@@ -2,7 +2,7 @@
 Adopting https://github.com/zhan-xu/RigNet neural network we created an addon in blender for an intuitive and easy rigging of their existing template characters 
 We strongly advise to use the latest version of blender available in order to use the addons
 
-1)Setup of Anaconda that emulates our environment on windows 64x
+1)Setup of Anaconda that emulates our environment on Windows 64x
 --------
 Install anaconda.
 
@@ -48,7 +48,7 @@ pip install torch-cluster==1.5.9 -f https://pytorch-geometric.com/whl/torch-1.7.
 pip install torch-geometric
 ```
 
-Download from https://www.lfd.uci.edu/~gohlke/pythonlibs/#rtree the file named "Rtree‑0.9.7‑cp37‑cp37‑win_amd64.whl" then run on the console:
+If you are working on Linux you can skip this last step. Download from https://www.lfd.uci.edu/~gohlke/pythonlibs/#rtree the file named "Rtree‑0.9.7‑cp37‑cp37‑win_amd64.whl" then run on the console:
 
 ```
 pip install Rtree‑0.9.7‑cp37‑cp37‑win_amd64.whl
@@ -62,7 +62,7 @@ If any of the above ends up in an error it is possible to browse the created env
 --------
 Download the code of https://github.com/zhan-xu/RigNet and unzip it
 
-Download the folder "checkpoints" form https://umass.box.com/s/l7dxfayrubf5qzxcyg7can715xnislwm and paste it within the folder "RigNet-master"
+Download the folder "checkpoints" from https://umass.box.com/s/l7dxfayrubf5qzxcyg7can715xnislwm and paste it within the folder "RigNet-master"
 
 Download quick_start1.py from our github and paste it inside the folder RigNet-master (there is no need to delete the original quick_start.py within the folder)
 
