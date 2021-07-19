@@ -66,18 +66,25 @@ Download the folder "checkpoints" from https://umass.box.com/s/l7dxfayrubf5qzxcy
 
 Download quick_start1.py from our github and paste it inside the folder RigNet-master (there is no need to delete the original quick_start.py within the folder)
 
+To test that everything works, from the anaconda console go into RigNet-master folder and run:
+```
+python quick_start.py
+```
 
 3)Blender setup
 --------
 Once you downloaded the latest version of Blender, open the anaconda environment terminal again
 
-Change folder path with "cd C:\Program Files\Blender Foundation\Blender 2.93"
+Change folder path with
+```
+cd C:\Program Files\Blender Foundation\Blender 2.93
+```
 
 Run "blender"
 
-Blender should open on it own, from here go to "edit", "preferences", "addons", install
+Blender should open on its own, from here go to "edit", "preferences", "addons", install
 
-Browse your folder till you find the zipped folder "Addon_rignet" downloaded from our github
+Browse your folder till you find the zipped folder "Addon_rignet.zip" downloaded from our github
 
 Select it. After a short delay it should appear next to a box which turns on the addon
 
