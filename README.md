@@ -72,6 +72,8 @@ python quick_start.py
 ```
 It might take a while, don't panic and wait for the Network to finish working <3
 
+When it finishes, a seagul should appear on a maya3d window which gives you a preview of what the network did
+
 3)Blender setup
 --------
 Once you downloaded the latest version of Blender, open the anaconda environment terminal again
