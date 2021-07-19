@@ -32,21 +32,27 @@ pip install rtree==0.9.7
 pip install trimesh[easy]
 
 conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
+```
 
-AT THIS POINT VERIFY PYTHORCH VERSION ON ANACONDA NAVIGATOR
+Minimize the console window, check on Anaconda the version of pytorch and make sure it's 1.7.1 or above. When we explicit the version within the "pip install" command for some reason it generates errors lately. According to the version installed, simply modify the four following pip installs with your current version "torch-#.#.#+cu101.html":
 
-pip install torch-scatter==2.0.7 -f https://pytorch-geometric.com/whl/torch-[VERSION]+cu101.html
+```
+pip install torch-scatter==2.0.7 -f https://pytorch-geometric.com/whl/torch-1.7.1+cu101.html
 
-pip install torch-sparse==0.6.9 -f https://pytorch-geometric.com/whl/torch-1.8.1+cu101.html
+pip install torch-sparse==0.6.9 -f https://pytorch-geometric.com/whl/torch-1.7.1+cu101.html
 
-pip install torch-spline-conv==1.2.1 -f https://pytorch-geometric.com/whl/torch-1.8.1+cu101.html
+pip install torch-spline-conv==1.2.1 -f https://pytorch-geometric.com/whl/torch-1.7.1+cu101.html
 
-pip install torch-cluster==1.5.9 -f https://pytorch-geometric.com/whl/torch-1.8.1+cu101.html
+pip install torch-cluster==1.5.9 -f https://pytorch-geometric.com/whl/torch-1.7.1+cu101.html
 
 pip install torch-geometric
 ```
 
-Download from https://www.lfd.uci.edu/~gohlke/pythonlibs/#rtree the file named "Rtree‑0.9.7‑cp37‑cp37‑win_amd64.whl" then run on the console: pip install Rtree‑0.9.7‑cp37‑cp37‑win_amd64.whl
+Download from https://www.lfd.uci.edu/~gohlke/pythonlibs/#rtree the file named "Rtree‑0.9.7‑cp37‑cp37‑win_amd64.whl" then run on the console:
+
+```
+pip install Rtree‑0.9.7‑cp37‑cp37‑win_amd64.whl
+```
 
 If any of the above ends up in an error it is possible to browse the created environment directly in anaconda navigator and install the above mentioned packages
 
