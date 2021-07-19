@@ -65,8 +65,11 @@ Change folder path with "cd C:\Program Files\Blender Foundation\Blender 2.93"
 
 Run "blender"
 
-5)avviare il terminal di anaconda e startare blender
---------
+Blender should open on it own, from here go to "edit", "preferences", "addons", install
+
+Browse your folder till you find the zipped folder "Addon_rignet" downloaded from our github
+
+Select it. After a short delay it should appear next to a box which turns on the addon
 6)edit preferences install
 --------
 7)Press "N" to open the addon panel
