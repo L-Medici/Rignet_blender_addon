@@ -34,7 +34,7 @@ conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
 
 AT THIS POINT VERIFY PYTHORCH VERSION ON ANACONDA NAVIGATOR
 
-pip install torch-scatter==2.0.7 -f https://pytorch-geometric.com/whl/torch-1.8.1+cu101.html
+pip install torch-scatter==2.0.7 -f https://pytorch-geometric.com/whl/torch-[VERSION]+cu101.html
 
 pip install torch-sparse==0.6.9 -f https://pytorch-geometric.com/whl/torch-1.8.1+cu101.html
 
