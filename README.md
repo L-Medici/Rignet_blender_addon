@@ -71,6 +71,7 @@ To test that everything works, from the anaconda console go into RigNet-master f
 python quick_start.py
 ```
 It might take a while, don't panic and wait for the Network to finish working <3
+
 3)Blender setup
 --------
 Once you downloaded the latest version of Blender, open the anaconda environment terminal again
