@@ -2,7 +2,7 @@
 Adopting https://github.com/zhan-xu/RigNet neural network we created an addon in blender for an intuitive and easy rigging of their existing template characters 
 We strongly advise to use the latest version of blender available in order to use the addons
 
-1)setup of anaconda that emulates our environment on windows 64x
+1)Setup of Anaconda that emulates our environment on windows 64x
 --------
 Install anaconda.
 
@@ -20,11 +20,11 @@ pip install scipy==1.7.0
 
 pip install matplotlib==3.4.2
 
-pip instal tensorboard==2.5.0
+pip install tensorboard==2.5.0
 
 pip install open3d==0.9.0
 
-pip install opencv-pyhon==4.5.2.54
+pip install opencv-python==4.5.2.54
 
 pip install rtree==0.9.7
 
@@ -32,28 +32,39 @@ pip install trimesh[easy]
 
 conda install pytorch==1.6.0 torchvision==0.7.0 cudatoolkit=10.1 -c pytorch
 
-pip install torch-scatter -f https://pytorch-geometric.com/whl/torch-2.0.6.html
+pip install torch-scatter==2.0.7 -f https://pytorch-geometric.com/whl/torch-1.8.1+cu101.html
 
-pip install torch-sparse -f https://pytorch-geometric.com/whl/torch-0.6.9.html
+pip install torch-sparse==0.6.9 -f https://pytorch-geometric.com/whl/torch-1.8.1+cu101.html
 
-pip install torch-spline-conv -f https://pytorch-geometric.com/whl/torch-1.2.1.html
+pip install torch-spline-conv==1.2.1 -f https://pytorch-geometric.com/whl/torch-1.8.1+cu101.html
 
-pip install torch-cluster -f https://pytorch-geometric.com/whl/torch-1.5.9.html
+pip install torch-cluster==1.5.9 -f https://pytorch-geometric.com/whl/torch-1.8.1+cu101.html
 
 pip install torch-geometric==1.7.2
 
-Download from https://www.lfd.uci.edu/~gohlke/pythonlibs/#rtree the file named "Rtree‑0.9.7‑cp37‑cp37‑win_amd64.whl" then run on the console  pip install Rtree‑0.9.7‑cp38‑cp38‑win_amd64.whl
+Download from https://www.lfd.uci.edu/~gohlke/pythonlibs/#rtree the file named "Rtree‑0.9.7‑cp37‑cp37‑win_amd64.whl" then run on the console: pip install Rtree‑0.9.7‑cp38‑cp38‑win_amd64.whl
 
 If any of the above ends up in an error it is possible to browse the created environment directly in anaconda navigator and install the above mentioned packages
 
 
 
-2)scaricare codice da https://github.com/zhan-xu/RigNet ed estrailo in un path a piacere
+2)https://github.com/zhan-xu/RigNet network setup
 --------
-3)scaricare la cartella https://umass.box.com/s/l7dxfayrubf5qzxcyg7can715xnislwm e incollare la cartella all'interno di rignet main
+Download the code of https://github.com/zhan-xu/RigNet and unzip it
+
+Download the folder "checkpoints" form https://umass.box.com/s/l7dxfayrubf5qzxcyg7can715xnislwm and paste it within the folder "RigNet-master"
+
+Download quick_start1.py from our github and paste it inside the folder RigNet-master (there is no need to delete the original quick_start.py within the folder)
+
+
+3)Blender setup
 --------
-4)incollare quick_start1.py all'interno di rignet master
---------
+Once you downloaded the latest version of Blender, open the anaconda environment terminal again
+
+Change folder path with "cd C:\Program Files\Blender Foundation\Blender 2.93"
+
+Run "blender"
+
 5)avviare il terminal di anaconda e startare blender
 --------
 6)edit preferences install
