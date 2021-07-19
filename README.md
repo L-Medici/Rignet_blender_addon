@@ -30,7 +30,9 @@ pip install rtree==0.9.7
 
 pip install trimesh[easy]
 
-conda install pytorch==1.8.1 torchvision==0.7.0 cudatoolkit=10.1 -c pytorch
+conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
+
+AT THIS POINT VERIFY PYTHORCH VERSION ON ANACONDA NAVIGATOR
 
 pip install torch-scatter==2.0.7 -f https://pytorch-geometric.com/whl/torch-1.8.1+cu101.html
 
@@ -40,7 +42,7 @@ pip install torch-spline-conv==1.2.1 -f https://pytorch-geometric.com/whl/torch-
 
 pip install torch-cluster==1.5.9 -f https://pytorch-geometric.com/whl/torch-1.8.1+cu101.html
 
-pip install torch-geometric==1.7.2
+pip install torch-geometric
 
 Download from https://www.lfd.uci.edu/~gohlke/pythonlibs/#rtree the file named "Rtree‑0.9.7‑cp37‑cp37‑win_amd64.whl" then run on the console: pip install Rtree‑0.9.7‑cp37‑cp37‑win_amd64.whl
 
