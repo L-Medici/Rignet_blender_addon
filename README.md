@@ -42,7 +42,7 @@ pip install torch-cluster==1.5.9 -f https://pytorch-geometric.com/whl/torch-1.8.
 
 pip install torch-geometric==1.7.2
 
-Download from https://www.lfd.uci.edu/~gohlke/pythonlibs/#rtree the file named "Rtree‑0.9.7‑cp37‑cp37‑win_amd64.whl" then run on the console: pip install Rtree‑0.9.7‑cp38‑cp38‑win_amd64.whl
+Download from https://www.lfd.uci.edu/~gohlke/pythonlibs/#rtree the file named "Rtree‑0.9.7‑cp37‑cp37‑win_amd64.whl" then run on the console: pip install Rtree‑0.9.7‑cp37‑cp37‑win_amd64.whl
 
 If any of the above ends up in an error it is possible to browse the created environment directly in anaconda navigator and install the above mentioned packages
 
@@ -70,6 +70,20 @@ Blender should open on it own, from here go to "edit", "preferences", "addons", 
 Browse your folder till you find the zipped folder "Addon_rignet" downloaded from our github
 
 Select it. After a short delay it should appear next to a box which turns on the addon
-6)edit preferences install
+
+
+4)Using the addon
 --------
-7)Press "N" to open the addon panel
+Press "N" to open the addon panel
+
+Select the path where "RigNet-Master" is within your computer
+
+Select from the list of object the one you choose to add inside blender
+
+Run. The process may take a while depending on the complexity of the the object chose for the rigging
+
+After a while the object will appear at the center of the world centered in the cursor. If you don't see it it's because the object is very small, just zoom in until you see it
+
+5)Expandind the addon with new objects to rig
+--------
+In theory, https://github.com/zhan-xu/RigNet explains that it is possible to create new objects for the RigNet to work on. For any consideration related to the topic we advice the reader to check https://github.com/zhan-xu/RigNet because we don't know how to do it yet :p
