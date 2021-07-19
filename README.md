@@ -95,11 +95,11 @@ Press "N" to open the addon panel
 
 Select the path where "RigNet-Master" is within your computer
 
-Select from the list of object the one you choose to add inside blender
+Select from the list of objects the one you choose to add inside blender
 
 Run. The process may take a while depending on the complexity of the the object chose for the rigging
 
-After a while the object will appear at the center of the world centered in the cursor. If you don't see it it's because the object is very small, just zoom in until you see it
+After a while the object will appear at the center of the world, centered in the cursor. If you don't see it it's because the object is very small, just zoom in until you see it
 
 5)Expandind the addon with new objects to rig
 --------
