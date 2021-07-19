@@ -30,7 +30,7 @@ pip install rtree==0.9.7
 
 pip install trimesh[easy]
 
-conda install pytorch==1.6.0 torchvision==0.7.0 cudatoolkit=10.1 -c pytorch
+conda install pytorch==1.8.1 torchvision==0.7.0 cudatoolkit=10.1 -c pytorch
 
 pip install torch-scatter==2.0.7 -f https://pytorch-geometric.com/whl/torch-1.8.1+cu101.html
 
