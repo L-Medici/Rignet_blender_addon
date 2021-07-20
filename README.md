@@ -72,7 +72,7 @@ python quick_start.py
 ```
 It might take a while, don't panic and wait for the Network to finish working <3
 
-When it finishes, a seagul should appear on a maya3d window which gives you a preview of what the network did
+When it finishes, a seagul should appear on a open3d window which gives you a preview of what the network did
 
 3)Blender setup
 --------
@@ -102,7 +102,9 @@ Select from the list of objects the one you choose to add inside blender
 
 Run. The process may take a while depending on the complexity of the the object chose for the rigging
 
-After a while the object will appear at the center of the world, centered in the cursor. If you don't see it it's because the object is very small, just zoom in until you see it
+After a while the preview of the rigged model will appear on the open3d window. Close this window to allow the code to proceed
+
+Later on the object will appear at the center of the world in Blender, centered in the cursor. If you don't see it it's because the object is very small, just zoom in until you see it
 
 5)Expandind the addon with new objects to rig
 --------
