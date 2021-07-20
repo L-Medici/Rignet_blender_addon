@@ -112,6 +112,7 @@ Later on the object will appear at the center of the world in Blender, centered 
 In theory, https://github.com/zhan-xu/RigNet explains that it is possible to create new objects for the RigNet to work on. For any consideration related to the topic we advice the reader to check https://github.com/zhan-xu/RigNet because we don't know how to do it yet :p
 
 ![Alt Text](https://media.giphy.com/media/SGE99T0iY2GE3svuKv/giphy.gif)
+![Alt Text](https://media.giphy.com/media/xQZUNJ1kZ3OGsxLM94/giphy.gif)
 
 Licence
 --------
