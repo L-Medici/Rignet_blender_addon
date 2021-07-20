@@ -1,5 +1,6 @@
 # Rignet_blender_addon
-Adopting https://github.com/zhan-xu/RigNet neural network we created an addon in blender for an intuitive and easy rigging of their existing template characters 
+Adopting https://github.com/zhan-xu/RigNet neural network we created an addon in blender for an intuitive and easy rigging of their existing template characters
+
 We strongly advise to use the latest version of blender available in order to use the addons
 
 1)Setup of Anaconda that emulates our environment on Windows 64x
