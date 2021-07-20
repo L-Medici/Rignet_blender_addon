@@ -110,3 +110,7 @@ Later on the object will appear at the center of the world in Blender, centered 
 5)Expandind the addon with new objects to rig
 --------
 In theory, https://github.com/zhan-xu/RigNet explains that it is possible to create new objects for the RigNet to work on. For any consideration related to the topic we advice the reader to check https://github.com/zhan-xu/RigNet because we don't know how to do it yet :p
+
+Licence
+--------
+The Rignet is a product of the University of Massachusetts, see the LICENSE README.txt file in this directory or in https://github.com/zhan-xu/RigNet for complete text.
